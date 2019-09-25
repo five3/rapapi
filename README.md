@@ -6,7 +6,7 @@ You should install [mitmproxy](https://mitmproxy.org/) at first, and then instal
 ```bash
 pip install dist/RapAPI_0.1.x.whl
 # or
-pip install git+https://git.corpautohome.com/ad-qa/rapapi.git
+pip install git+https://github.com/five3/rapapi
 ```
 
 ## How To Use
