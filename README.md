@@ -40,9 +40,9 @@ addons = [
 ### Start proxy service
 ```bash
 rapapi.record -h
-rapapi.record -s /path/to/recorder.py -p 8181 -u "https://vr.api.autohome.com.cn/api"
+rapapi.record -s /path/to/recorder.py -p 8181 -u "https://vr.api.xxx.com.cn/api"
 # or
-mitmdump -s /path/to/recorder.py -k -p 8181 "~u ^https://vr.api.autohome.com.cn/api.+"
+mitmdump -s /path/to/recorder.py -k -p 8181 "~u ^https://vr.api.xxx.com.cn/api.+"
 ```
 ### Install HTTPS certificate
 1. configure your target device with the correct proxy settings
@@ -63,4 +63,4 @@ mitmdump -s /path/to/recorder.py -k -p 8181 "~u ^https://vr.api.autohome.com.cn/
 
 ## TODO
 1. snapshot incorrect under linux platform
-1. support to add validate rule by UI
+1. support to add validate rule on UI
