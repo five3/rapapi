@@ -1,0 +1,5 @@
+
+class Config:
+    MONGO_HOST = '10.168.96.94'
+    THREAD_POOL_MAX_NUM = 10
+    COLLECTION_CONCURRENT_NUM = 10
